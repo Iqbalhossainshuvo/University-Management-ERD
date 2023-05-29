@@ -7,3 +7,13 @@ npm i @types/express
 npm i cors // npm i --save-dev @types/cors
 npm i --save-dev @types/express // express show error that way install this package
 
+
+eslint ==> check code error
+prettier == formate code 
+husky => commit check // npm i husky // https://www.npmjs.com/package/husky
+lint Stage => only check stage field 
+
+typescript eslint prettier setup (search on google and setup this package)
+i follow this post : https://blog.logrocket.com/linting-typescript-eslint-prettier/
+
+npm install eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin --save-dev
