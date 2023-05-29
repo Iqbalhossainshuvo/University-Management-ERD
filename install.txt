@@ -11,7 +11,8 @@ npm i --save-dev @types/express // express show error that way install this pack
 eslint ==> check code error
 prettier == formate code 
 husky => commit check // npm i husky // https://www.npmjs.com/package/husky
-lint Stage => only check stage field 
+lint Stage => only check stage field // npm install --save-dev lint-staged
+
 
 typescript eslint prettier setup (search on google and setup this package)
 i follow this post : https://blog.logrocket.com/linting-typescript-eslint-prettier/
