@@ -3,3 +3,7 @@ typeScript => yarn add -D typeScript
 mongoose => npm install mongoose --save
 Express => npm install express --save
 dotEnv => npm install dotenv 
+npm i @types/express
+npm i cors // npm i --save-dev @types/cors
+npm i --save-dev @types/express // express show error that way install this package
+
