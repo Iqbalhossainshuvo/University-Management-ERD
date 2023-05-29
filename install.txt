@@ -1,0 +1,5 @@
+npm init
+typeScript => yarn add -D typeScript
+mongoose => npm install mongoose --save
+Express => npm install express --save
+dotEnv => npm install dotenv 
