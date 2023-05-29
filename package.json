@@ -14,8 +14,8 @@
   },
   "author": "ihshuvo",
   "license": "ISC",
-  "lint-staged": {
-    "src/**/*.ts": "npm run lint-prettier "
+  "lint-stage": {
+    "src/**/*.ts": "lint-prettier "
   },
   "devDependencies": {
     "@types/cors": "^2.8.13",
