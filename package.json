@@ -9,13 +9,13 @@
     "lint:fix": "eslint lint -- --fix",
     "prepare": "husky install",
     "prettier:check": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\" ",
-    "lint-prettier": "npm run lint:check && npm run prettier:check ",
+    "lint-prettier": "yarn lint:check && yarn prettier:check ",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "ihshuvo",
   "license": "ISC",
   "lint-staged": {
-    "src/**/*.ts": "npm run lint-prettier "
+    "src/**/*.ts": "lint-prettier "
   },
   "devDependencies": {
     "@types/cors": "^2.8.13",
